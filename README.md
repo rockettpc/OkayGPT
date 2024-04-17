@@ -1,6 +1,6 @@
-# Ok, GPT!
+# OkayGPT!
 
-This is an ongoing project where I'm building my own Google Home / Alexa style device that can be interacted with via voice commands.
+This is a fork of https://github.com/unconv/ok-gpt
 
 Currently it can detect a wakeup keyphrase, such as "Ok, GPT!" and then listen to a voice command. Speech recognition is done with OpenAI Whisper, locally. The command is then sent to the ChatGPT API and the response is spoken via the OpenAI Text-to-Speech API.
 
@@ -17,7 +17,7 @@ $ python3 recognize.py
 
 ## Videos
 
-The building of this project is documented on my YouTube channel.
+The building of this project is documented on the Unconventional Coding YouTube channel.
 
 - Video 1: https://www.youtube.com/watch?v=_vLKWNv4d5E
 - Video 2: https://www.youtube.com/watch?v=xQdLiyCxyWQ
