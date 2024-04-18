@@ -4,11 +4,11 @@ import pyaudio
 import wave
 import os
 
-whisper_model = whisper.load_model("base")
+whisper_model = whisper.load_model("tiny")
 ambient_detected = False
-speech_volume = 100
+speech_volume = 1
 
-def live_speech(wait_time=10):
+def live_speech(wait_time=2):
     global ambient_detected
     global speech_volume
 
